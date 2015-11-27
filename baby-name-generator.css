@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  font-family: "Helvetic", cursive;
+  color: white;
+  background-color: #9933ff;
+}
+
+h1 {
+  margin: 132px 0 50px 0;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: "Helvetic", cursive;
+}
+
+button {
+  border-radius: 6px;
+  height: 40px;
+  width: 180px;
+  font-size: 20px;
+  background-color: #9933ff;
+  border: 3px solid white;
+  color: white;
+}
+input {
+  size: 20px;
+}
+
+button:focus {
+  outline: none;
+}

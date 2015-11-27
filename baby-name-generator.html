@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="baby-name-generator.css">
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <h1>Baby Name Generator</h1>
+	  <form>
+	    <label>What is your Last name:
+	      <input id='last-name' type='text' name='lastname'>
+	    </label>
+	    <br>
+	    <label>Boy Name:
+	      <input id='boy' type='radio' name='gender'>
+	    </label>
+	    <label>Girl Name:
+	      <input id='girl' type='radio' name='gender'>
+	    </label>
+	  </form>
+	  <br>
+  <button onclick='validate(nameGenerator)' id='generate-name'>Generate Name</button>
+  <h2 id='baby-name'></h2>
+
+</body>
+<script type='text/javascript' src='baby-name-generator.js'></script>
+
+</html>
